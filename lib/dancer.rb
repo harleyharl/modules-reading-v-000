@@ -7,9 +7,9 @@ class Dancer
   extend FancyDance::ClassMethods
   include FancyDance::InstanceMethods
 
-  include Dance
-
-  extend MetaDancing
+  # include Dance
+  #
+  # extend MetaDancing
 
   attr_accessor :name
 
